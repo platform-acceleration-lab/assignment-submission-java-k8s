@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        maven { url "http://platform-acceleration-lab-maven.s3.amazonaws.com" }
+        jcenter()
+    }
+
+    dependencies {
+        classpath "io.pivotal.pal.assignments:assignments-plugin:5.0.0"
+    }
+}
+
+apply plugin: "io.pivotal.pal.assignments.plugin"
+
+assignments {
+    apiUrl = "https://assignments.education.pivotal.io"
+    emails = [
+       "student1@example.com", // update me
+       "student2@example.com" // update me
+    ]
+    courseCode = "PalForDevK8s"
+}
+
+defaultTasks "tasks"
