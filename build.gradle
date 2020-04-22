@@ -17,7 +17,7 @@ assignments {
        "student1@example.com", // update me
        "student2@example.com" // update me
     ]
-    courseCode = "PalForDevK8s"
+    courseCode = "PAL_DEV_K8S"
 }
 
 defaultTasks "tasks"
