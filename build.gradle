@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath "io.pivotal.pal.assignments:assignments-plugin:5.3.2"
+        classpath "io.pivotal.pal.assignments:assignments-plugin:5.4.0"
     }
 }
 
