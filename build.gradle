@@ -18,6 +18,7 @@ assignments {
        "student2@example.com" // update me
     ]
     courseCode = "PAL_DEV_K8S"
+    assignmentSubmission = false
 }
 
 defaultTasks "tasks"
